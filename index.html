@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="homepage-script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <header>
+            <div class="d-flex justify-content-end">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#about">
+                        <p>
+                            <span class="number">01.</span>
+                            <span class="text">About</span>
+                        </p>
+                    </a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#experience">
+                        <p>
+                            <span class="number">02.</span>
+                            <span class="text">Experience</span>
+                        </p>
+                    </a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#work">
+                        <p>
+                            <span class="number">03.</span>
+                            <span class="text">Work</span>
+                        </p>
+                    </a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#project">
+                        <p>
+                            <span class="number">04.</span>
+                            <span class="text">Projects</span>
+                        </p>
+                    </a>
+                </nav>
+                <div>
+                    <a href="/resume.pdf" class="resume-button">Resume</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start">
+            </div>
+        </header>
+        <div id="content">
+            <main class="container-lg fill-pad">
+                <section id="hero" class="w-75 mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="small-heading">Hi my name is</h1>
+                    </div>
+                    <div class="mx-auto">
+                        <h2 class="biggest-heading">Daniel Holm.</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <h2 class="big-heading">I build things with the computer.</h3>
+                    </div>
+                    <div class="mx-auto">
+                        <p class="desc-text">Up and coming Software engineer, I'm currently finsishing my studies at Harward. </p>
+                    </div>
+                    <div class="mx-auto">
+                        <a class="resume-button" href="https://github.com/dannivh3">Check out my Github</a>
+                    </div>
+                </section>
+                <hr>
+                <section id="about" class="w-75 mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="numbered-heading">
+                            <span class="number">01.</span>
+                            <span class="text">About</span>
+                        </h2>
+                    </div>
+                    <div class="flex-parent">
+                        <div class="flex-child">
+                            <p class="desc-text">Hello my name is Daniel Vidar Holm, I have studied 3 programming languages, Data structure, computer science and I have a beautiful girlfriend</p>
+                            <p class="desc-text">Hello my name is Daniel Vidar Holm, I have studied 3 programming languages, Data structure, computer science</p>
+                            <p class="desc-text">Hello my name is Daniel Vidar Holm, I have studied 3 programming languages, Data structure, computer science</p>
+                        </div>
+                        <div class="flex-child">
+                            <img src="profile.png" alt="Profile Picture of me">
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <section id="experience" class="w-75 mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="numbered-heading">
+                            <span class="number">02.</span>
+                            <span class="text">Experience</span>
+                        </h2>
+                    </div>
+                    <div class="ms-5">
+                        <div class="flex-parent">
+                            <div id="list-example" class="flex-child list-group">
+                                <a id="diploma" class="list-group-item list-group-item-action" href="#list-item-1">Diplomas</a>
+                                <a id="harward" class="list-group-item list-group-item-action" href="#list-item-2">Harward</a>
+                                <a id="free-code-camp" class="list-group-item list-group-item-action" href="#list-item-3">Free-code-camp</a>
+                                <a id="general" class="list-group-item list-group-item-action" href="#list-item-4">General</a>
+                            </div>
+                            <div id="blabla" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="flex-child scrollspy-example" tabindex="0">
+                                <h4 id="list-item-1">Diplomas</h4>
+                                <p class="desc-text-2">Check out my Free-code-camp, Python course <a href="https://www.freecodecamp.org/certification/dannivh3/scientific-computing-with-python-v7" target="_blank" rel="noopener noreferrer" class="cool-link">Diploma</a></p>
+                                <p class="desc-text-2">Check out my Free-code-camp, Data Analysis course <a href="https://www.freecodecamp.org/certification/dannivh3/scientific-computing-with-python-v7" target="_blank" rel="noopener noreferrer" class="cool-link">Diploma</a></p>
+                                <p class="desc-text-2 last-item">Check out my Harward, CS50 course <a href="https://www.freecodecamp.org/certification/dannivh3/scientific-computing-with-python-v7" target="_blank" rel="noopener noreferrer" class="cool-link">Diploma</a></p>
+                                <h4 id="list-item-2">Harward</h4>
+                                <p class="desc-text-2">I went to Harward online school for 3 months. I learned 4 different languages there, which include C, JavaScript, HTML and CSS. </p>
+                                <p class="desc-text-2">There I learned how to problem-solve on my own, I built up confidence and my understanding for my work.</p>
+                                <p class="desc-text-2 last-item">I also learned some basic computer science and learned how computers work.</p>
+                                <h4 id="list-item-3">Free-Code-Camp</h4>
+                                <p class="desc-text-2">I started my journey at Free-code-camp. There i started to learn Python and got pretty good at it. Everyday in the evening I finished couple problems until I got my first Diploma there</p>
+                                <p class="desc-text-2 last-item">Im currently learning Data Analysis on the website</p>
+                                <h4 id="list-item-4">General</h4>
+                                <p class="desc-text-2">This is some placeholderThis is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlightin content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlightin</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="work" class="w-75 mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="numbered-heading">
+                            <span class="number">03.</span>
+                            <span class="text">Work</span>
+                        </h2>
+                    </div>
+                    <div class="flex-parent">
+                        <div class="flex-child">
+                            <p class="desc-text">This Field is Empty at the moment</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project" class="w-75 mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="numbered-heading">
+                            <span class="number">04.</span>
+                            <span class="text">Projects</span>
+                        </h2>
+                    </div>
+                    <div class="flex-parent">
+                        <a id="card1" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                        <a id="card2" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                        <a id="card3" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex-parent">
+                        <a id="card4" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                        <a id="card5" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                        <a id="card5" class="card">
+                            <img src="pythonimg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
