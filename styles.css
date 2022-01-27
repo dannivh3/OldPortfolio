@@ -1,0 +1,290 @@
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    background-color: #1D183C;
+}
+header
+{
+    font-size: 1.6rem;
+    margin-right: 3rem;
+    font-family: Lucida Console;
+    margin-top: 1rem;
+}
+main.fill-pad
+{
+    padding: 0px 150px;
+}
+main
+{
+    margin: 0px auto;
+    width: 100%;
+    min-height: 100vh;
+}
+h2.small-heading
+{
+    font-family: Lucida Console;
+    color: #3D9748;
+    font-size: 2rem;
+}
+h2.biggest-heading
+{
+    font-family: Arial;
+    color: #e1e9ee;
+    font-size: 7rem;
+    font-weight: bold;
+}
+h2.big-heading
+{
+    font-family: Arial;
+    color: #d1dde5;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.desc-text
+{
+    font-family: Arial;
+    color: #bcc6ce;
+    font-size: 1.6rem;
+    max-width:40rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.desc-text-2
+{
+    font-family: Arial;
+    color: #bcc6ce;
+    font-size: 1.4rem;
+    max-width:60rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-link .text
+{
+    color: #e1e9ee;
+    transition-duration: 0.3s;
+
+}
+.nav-link .text:hover
+{
+    color: #3D9748;
+    transition-duration: 0.3s;
+
+}
+.nav-link .number
+{
+    color: #3D9748;
+}
+.numbered-heading .text
+{
+    font-family: Arial;
+    color: #e1e9ee;
+    font-size: 2rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+.numbered-heading .number
+{
+    font-family: Lucida;
+    color: #3D9748;
+    font-size: 2rem;
+}
+.container-lg
+{
+    max-width: 1600px;
+}
+.github-button
+{
+    font-size: 1.4rem;
+}
+.resume-button:link, .resume-button:visited
+{
+    background-color: #1D183C;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lucida Console;
+    border:2px solid;
+    border-color:  #3D9748;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.resume-button:hover, .resume-button:active
+{
+    transition-duration: 0.3s;
+    background-color: #332F4F;
+}
+#hero
+{
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+#about
+{
+    padding-top: 20rem;
+    padding-bottom:20rem;
+}
+#experience
+{
+    padding-top: 20rem;
+    padding-bottom:20rem;
+}
+#work
+{
+    padding-top: 20rem;
+    padding-bottom:20rem;
+}
+#project
+{
+    padding-top: 20rem;
+    padding-bottom:20rem;
+}
+.numbered-heading .text:after
+{
+    content: "";
+    display: inline-block;
+    height: 1.1rem;
+    vertical-align: bottom;
+    width: 35%;
+    margin-right: -50%;
+    margin-left: 10px;
+    border-top: 1px solid white;
+}
+.flex-parent {
+    padding:2rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .flex-child-small {
+    flex: 0;
+    margin: 10px;
+    width: 25%;
+  }
+
+  .flex-child-small:first-child {
+    margin-right: 20px;
+  }
+  .flex-child-large {
+    flex: 1;
+    margin: 10px;
+    width: 50%;
+  }
+
+  .flex-child-large:first-child {
+    margin-right: 20px;
+  }
+h4
+{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+#blabla
+{
+    height:300px;
+    overflow:hidden;
+}
+#blabla .desc-text-2
+{
+    font-size:1.8rem;
+}
+.last-item
+{
+    padding-bottom:16rem;
+}
+.cool-link
+{
+    color: #3D9748;
+    text-decoration:none;
+    font-family: Lucida Console;
+}
+.list-group
+{
+    padding-top:4rem;
+    padding-right:4rem;
+}
+.list-group-item
+{
+    background-color: #1D183C;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lucida Console;
+    transition-duration: 0.3s;
+    border-left:1px solid white;
+    font-size:1.6rem;
+}
+.list-group-item:hover
+{
+    transition-duration: 0.3s;
+    background-color: #332F4F;
+    color:white;
+}
+.list-group-item:active
+{
+    transition-duration: 0.3s;
+    background-color: #7C7894;
+    color:white;
+}
+
+.card
+{
+    margin-top:5rem;
+    width: 20rem;
+    padding:1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    background-color: #271F50;
+    font-size:1.6rem;
+    color:white;
+    transition-duration:0.5s;
+    transition-delay:250ms;
+    animation-duration:0.5s;
+    animation-name:down;
+    animation-fill-mode: forwards;
+    text-decoration:none;
+    shadow:white;
+}
+.card:hover
+{
+    animation-duration:0.5s;
+    animation-name:lift;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+    color:#3D9748;
+
+}
+@keyframes lift
+{
+    from
+    {
+        bottom:0px;
+    }
+    to
+    {
+        bottom:20px;
+    }
+}
+@keyframes down
+{
+    from
+    {
+        bottom:20px;
+    }
+    to
+    {
+        bottom:0px;
+    }
+}
+h5
+{
+    font-family: Lucida Console;
+    color: #3D9748;
+}
